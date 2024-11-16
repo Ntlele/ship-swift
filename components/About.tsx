@@ -72,7 +72,7 @@ const About: React.FC = () => {
         <section id="About" className="py-16 bg-slate-200 text-center p-10">
             <h1 className="text-4xl font-bold mb-10">About</h1>
 
-            <div className="text-left font-mono text-lg md:text-2xl text-green-500 h-52 mb-6 bg-black p-6 rounded-xl">
+            <div className="text-left font-mono text-sm md:text-2xl text-green-500 h-52 mb-6 bg-black p-6 rounded-sm">
                 <span ref={typedRef}></span>
             </div>
 
