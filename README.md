@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1> Ship-swift Landing page </h1>
+<h2>1. Hero section</h2>
+On page load, the project is introduced with:
 
-## Getting Started
+    A large cover image
+    The name of your project
+    A one-line phrase and/or description of your project
+    Navigation elements in the header bar to access each section you’ve defined (please have at least 2)
+    A labeled button that navigates to the deployed project application.
 
-First, run the development server:
+<h2>2. Feature Section</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Following the intro section, a section where the landing page highlights 3 key features.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For each feature:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    An image, screenshot, gif, or video
+    The name of the feature
+    A description of the feature
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<h2>3. About Section</h2>
 
-## Learn More
+Following the feature section, an About section is included.
 
-To learn more about Next.js, take a look at the following resources:
+This about section includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    A description of what inspired the project. Make this a personal story, and not “because Holberton required this project”. It is reasonable to include the timeline, and feel free to also mention this is a Portfolio Project for Holberton School with a link.
+    Links to each team member’s LinkedIn, github and Twitter profile
+    A link to the github repository for the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Here is the link to the Landing Page - 
