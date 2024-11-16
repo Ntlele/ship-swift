@@ -18,17 +18,17 @@ const Header: React.FC = () => {
     };
 
     return (
-        <header className="bg-white/60 shadow-md py-4 px-8 flex justify-between lg:justify-center gap-32 items-center sticky top-0 z-50">
+        <header className="bg-white/60 shadow-md py-2 px-8 flex justify-between lg:justify-center gap-32 items-center sticky top-0 z-50">
             {/* Logo */}
-            <h1 className="text-2xl font-bold text-blue-600 flex items-center justify-center">
-                <Truck/>
-                <a href="#Hero" onClick={(e) => scrollToSection(e, "Hero")} className="mx-6">
+            <h1 className="lg:text-2xl text-xl font-bold text-blue-600 flex items-center justify-center">
+                <Truck className="lg:h-10 lg:w-10 sm:w-6 sm:h-6"/>
+                <a href="#Hero" onClick={(e) => scrollToSection(e, "Hero")} className="lg:mx-6 ml-2">
                     Ship-Swift
                 </a>
             </h1>
 
             {/* Hamburger Menu Button */}
-            <div className="block md:hidden">
+            <div className="block lg:hidden">
                 <button
                     onClick={toggleMenu}
                     className="text-blue-600 focus:outline-none"
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
             <div
                 className={`${
                     isMenuOpen ? "translate-x-0" : "-translate-x-full"
-                } fixed top-0 left-0 w-2/3 h-full bg-white/90 shadow-lg z-40 transition-transform duration-300 ease-in-out md:hidden`}
+                } fixed top-0 left-0 w-2/3 h-full bg-white/90 shadow-lg z-40 transition-transform duration-300 ease-in-out lg:hidden`}
             >
                 <nav className="space-y-4 p-6 flex flex-col justify-start items-start">
                     <a
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Navigation Links (Visible on larger screens) */}
-            <nav className="hidden md:flex space-x-4 font-extrabold">
+            <nav className="hidden lg:flex md:mx-28 space-x-4 font-extrabold">
                 <a
                     href="#how-it-works"
                     className="text-gray-700 hover:text-blue-600"

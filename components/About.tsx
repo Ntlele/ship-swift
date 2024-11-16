@@ -6,7 +6,7 @@ const teamMembers = [
     { name: "Khiba Koenane 8804", role: "Front-end Developer | Back-end Developer", github: "https://github.com/khiba-k", picture: "https://avatars.githubusercontent.com/u/159003452?v=4" },
     { name: "Langa Hoohlo 8854", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Langahoohlo", picture: "https://avatars.githubusercontent.com/u/112098278?v=4" },
     { name: "Mthawelanga Matross 8873", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Matross-20", picture: "https://avatars.githubusercontent.com/u/156658865?v=4" },
-    { name: "Lebohang Mabataung Moletsane 9110", role: "Researcher |", github: "https://github.com/Lebohang1983", picture: "/assets/Lebohang.jpg" },
+    { name: "Lebohang Mabataung Moletsane 9110", role: "Researcher | Back-end", github: "https://github.com/Lebohang1983", picture: "https://avatars.githubusercontent.com/u/159106208?s=100&v=4" },
     { name: "Pheello Ntlele 8906", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Ntlele", picture: "https://avatars.githubusercontent.com/u/142914150?v=4" },
 ];
 
