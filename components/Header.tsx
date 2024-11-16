@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         <header className="bg-white/60 shadow-md py-2 px-8 flex justify-between lg:justify-center gap-32 items-center sticky top-0 z-50">
             {/* Logo */}
             <h1 className="lg:text-2xl text-xl font-bold text-blue-600 flex items-center justify-center">
-                <Truck className="lg:h-10 lg:w-10 sm:w-6 sm:h-6"/>
+                <img className="lg:h-10 lg:w-10 w-6 h-6" src="/assets/logo.png" alt="logo"></img>
                 <a href="#Hero" onClick={(e) => scrollToSection(e, "Hero")} className="lg:mx-6 ml-2">
                     Ship-Swift
                 </a>

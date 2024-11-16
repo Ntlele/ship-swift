@@ -23,8 +23,8 @@ const HeroSection: React.FC = () => {
         >
             {/* Background Overlay */}
             <div
-                className={`absolute inset-0 bg-black ${
-                    isLoaded ? "opacity-50" : "opacity-0"
+                className={`absolute inset-0 bg-gradient-to-b from-black/50 to-black ${
+                    isLoaded ? "opacity-80" : "opacity-0"
                 } transition-opacity duration-500 ease-in-out`}
             ></div>
 

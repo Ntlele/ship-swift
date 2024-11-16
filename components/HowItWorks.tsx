@@ -65,13 +65,13 @@ const HowItWorks: React.FC = () => {
         };
     }, []);
     return (
-        <section className="py-16 bg-gray-50 text-center pt-20" id="how-it-works">
+        <section className="py-16 bg-slate-200 text-center pt-20" id="how-it-works">
             <h1 className="lg:text-6xl text-3xl font-bold mb-10">How It Works</h1>
             <div className="flex flex-col gap-12">
                 {steps.map((step, index) => (
                     <div
                         key={step.title}
-                        className={`bg-white gap-x-48 p-6 rounded-lg flex flex-col md:flex-row ${
+                        className={`bg-white/50 gap-x-48 p-6 rounded-lg flex flex-col md:flex-row ${
                             step.title === "Driver" ? "md:flex-row-reverse" : "md:flex-row"
                         } items-center gap-8 scroll-animate`}
                     >
@@ -87,7 +87,7 @@ const HowItWorks: React.FC = () => {
                         </div>
 
                         {/* Details Section */}
-                        <div className="w-full md:w-1/2 text-left p-10 flex flex-col items-center gap-8 bg-gray-50 rounded-2xl">
+                        <div className="w-full md:w-1/2 text-left p-10 flex flex-col items-center gap-8 bg-slate-200 rounded-2xl">
                             <h2 className="text-3xl font-semibold mb-4">{step.title}</h2>
                             {step.guide && (
                                 <ol className="pl-6 space-y-10 list-decimal lg:text-xl">
