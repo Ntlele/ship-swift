@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
 
             {/* Hero Title */}
             <h1
-                className={`z-10 text-6xl mb-12 lg:text-9xl text-blue-500 bg-white/5 p-5 px-6 lg:px-20 rounded-2xl font-bold transform transition-all duration-500 ease-in-out ${
+                className={`z-10 text-6xl mb-12 lg:text-9xl text-blue-500 bg-white/5 p-5 px-6 lg:px-20 rounded-2xl font-bold transform transition-all duration-1000 ease-in-out ${
                     isLoaded
                         ? "opacity-100 translate-y-0 rotate-0 scale-100"
                         : "opacity-0 translate-y-16 rotate-6 scale-95"
@@ -65,7 +65,7 @@ const HeroSection: React.FC = () => {
             <div className="z-10">
                 <Link href="https://ship-swift-self.vercel.app" target="_blank">
                     <button
-                        className={`bg-gradient-to-r from-black/70 to-blue-300/70 text-white lg:text-2xl text-lg px-6 py-2 rounded-lg font-semibold flex items-center gap-3 transform transition-all duration-500 ease-in-out ${
+                        className={`bg-gradient-to-r mt-10 from-black/70 to-blue-300/70 text-slate-200 lg:text-2xl text-lg px-6 py-2 rounded-lg font-semibold flex items-center gap-3 transform transition-all duration-500 ease-in-out ${
                             isLoaded
                                 ? "hover:scale-110 shadow-[0_0_20px_2px_rgba(255,255,255,.7)]"
                                 : ""
