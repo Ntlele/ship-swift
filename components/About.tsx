@@ -5,10 +5,10 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 
 const teamMembers = [
     { name: "Kamohelo Koali 8754", role: "Project Manager | Back-end Developer", github: "https://github.com/KamoheloKoali", linkedin: "https://ls.linkedin.com/in/kamohelo-koali-9b90542b4", picture: "https://avatars.githubusercontent.com/u/152155388?v=4" },
-    { name: "Khiba Koenane 8804", role: "Front-end Developer | Back-end Developer", github: "https://github.com/khiba-k", linkedin: "https://ls.linkedin.com/in/khiba-koenane?trk=public_post_feed-actor-image", picture: "https://avatars.githubusercontent.com/u/159003452?v=4" },
+    { name: "Khiba Koenane 8804", role: "Front-end Developer | Back-end Developer", github: "https://github.com/khiba-k", linkedin: "https://ls.linkedin.com/in/khiba-koenane/", picture: "https://avatars.githubusercontent.com/u/159003452?v=4" },
     { name: "Langa Hoohlo 8854", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Langahoohlo", linkedin: "https://za.linkedin.com/in/langa-hoohlo-404608229", picture: "https://avatars.githubusercontent.com/u/112098278?v=4" },
     { name: "Mthawelanga Matross 8873", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Matross-20", linkedin: "https://ls.linkedin.com/in/mthawelanga-matross-a961412b4", picture: "https://avatars.githubusercontent.com/u/156658865?v=4" },
-    { name: "Lebohang Mabataung Moletsane 9110", role: "Researcher | Back-end", github: "https://github.com/Lebohang1983", linkedin: "https://ls.linkedin.com/in/lebohang-moletsane-445ab7328?trk=people-guest_people_search-card", picture: "https://avatars.githubusercontent.com/u/159106208?s=100&v=4" },
+    { name: "Lebohang Mabataung Moletsane 9110", role: "Researcher | Back-end Developer", github: "https://github.com/Lebohang1983", linkedin: "https://ls.linkedin.com/in/lebohang-moletsane-445ab7328?trk=people-guest_people_search-card", picture: "https://avatars.githubusercontent.com/u/159106208?s=100&v=4" },
     { name: "Pheello Ntlele 8906", role: "Front-end Developer | Back-end Developer", github: "https://github.com/Ntlele", linkedin: "https://ls.linkedin.com/in/david-ntlele-32a0372aa?trk=people_directory", picture: "https://avatars.githubusercontent.com/u/142914150?v=4" },
 ];
 
@@ -47,12 +47,12 @@ const About: React.FC = () => {
                 "We were inspired to develop a logistics web application for our community because we noticed a gap in how courier services were being utilized.",
                 "The drivers were already here, working hard to make ends meet, but they lacked a proper platform to connect with clients and streamline their jobs.",
                 "At the same time, clients seemed to struggle with existing courier applications, which were either too complex, unreliable, or poorly suited to our local needs.",
-                "We realized we could create something better—a platform tailored for Basotho communities, bridging the gap between clients and couriers.",
+                "We realized we could create something better, a platform tailored for Basotho communities, bridging the gap between clients and couriers.",
                 "This project is about giving both sides the tools they need to thrive while strengthening our local economy.",
             ],
             typeSpeed: 40,
             backSpeed: 20,
-            backDelay: 3000,
+            backDelay: 8000,
             loop: true,
             showCursor: true,
             cursorChar: "_",
