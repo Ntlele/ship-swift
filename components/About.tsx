@@ -44,15 +44,11 @@ const About: React.FC = () => {
 
         const options = {
             strings: [
-                "We were inspired to develop a logistics web application for our community because we noticed a gap in how courier services were being utilized.",
-                "The drivers were already here, working hard to make ends meet, but they lacked a proper platform to connect with clients and streamline their jobs.",
-                "At the same time, clients seemed to struggle with existing courier applications, which were either too complex, unreliable, or poorly suited to our local needs.",
-                "We realized we could create something better, a platform tailored for Basotho communities, bridging the gap between clients and couriers.",
-                "This project is about giving both sides the tools they need to thrive while strengthening our local economy.",
+                "We were inspired to develop a logistics web application for our community because we noticed a gap in how courier services were being utilized. The drivers were already here, working hard to make ends meet, but they lacked a proper platform to connect with clients and streamline their jobs. At the same time, clients seemed to struggle with existing courier applications, which were either too complex, unreliable, or poorly suited to our local needs. We realized we could create something better, a platform tailored for Basotho communities, bridging the gap between clients and couriers.This project is about giving both sides the tools they need to thrive while strengthening our local economy.",
             ],
             typeSpeed: 40,
             backSpeed: 20,
-            backDelay: 8000,
+            backDelay: 30000,
             loop: true,
             showCursor: true,
             cursorChar: "_",
@@ -72,7 +68,7 @@ const About: React.FC = () => {
         <section id="About" className="py-16 bg-slate-200 text-center p-10">
             <h1 className="text-4xl font-bold mb-10">About</h1>
 
-            <div className="text-left font-mono text-sm md:text-2xl text-green-500 h-52 mb-6 bg-black p-6 rounded-sm">
+            <div className="text-left font-mono overflow-auto text-sm md:text-2xl text-green-500 h-64 mb-6 bg-black p-6 rounded-sm">
                 <span ref={typedRef}></span>
             </div>
 
